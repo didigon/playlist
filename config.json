@@ -1,6 +1,5 @@
 {
   "_comment": "Suno Video Factory 설정 파일",
-  
   "suno": {
     "api_key": "YOUR_SUNO_API_KEY",
     "api_base_url": "https://api.suno.ai",
@@ -8,7 +7,6 @@
     "daily_limit": 60,
     "timeout_seconds": 300
   },
-  
   "image": {
     "provider": "openai",
     "api_key": "YOUR_OPENAI_API_KEY",
@@ -18,7 +16,6 @@
     "format": "png",
     "fallback_format": "jpg"
   },
-  
   "video": {
     "ffmpeg_path": "ffmpeg",
     "codec_video": "libx264",
@@ -29,7 +26,6 @@
     "thumbnail_enabled": true,
     "thumbnail_time": "00:00:05"
   },
-  
   "paths": {
     "music_folder": "./music",
     "image_folder": "./images",
@@ -39,7 +35,6 @@
     "log_folder": "./logs",
     "db_folder": "./db"
   },
-  
   "pipeline": {
     "auto_retry_count": 3,
     "retry_delay_seconds": 2,
@@ -49,7 +44,6 @@
     "parallel_enabled": false,
     "max_parallel_tasks": 3
   },
-  
   "logging": {
     "level": "INFO",
     "file_enabled": true,
@@ -58,5 +52,3 @@
     "backup_count": 5
   }
 }
-
-

@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
-"""
-Suno Video Factory - 환경 설정 스크립트
-필요한 폴더 구조를 자동으로 생성합니다.
-"""
+"""Suno Video Factory - 환경 설정 스크립트
+필요한 폴더 구조를 자동으로 생성합니다."""
 
 import os
 from pathlib import Path
