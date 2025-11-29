@@ -1,0 +1,57 @@
+# 환경 변수
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 가상 환경
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그 파일
+logs/*.log
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 프로젝트 특정
+db/tracks.json
+db/failed_tasks.json
+db/checkpoint.json
+
+# 생성된 파일 (선택적)
+# music/*.mp3
+# images/*.png
+# videos/*.mp4
+# thumbnails/*.jpg
+
+

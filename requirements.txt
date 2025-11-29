@@ -1,0 +1,25 @@
+# Core
+python-dotenv>=1.0.0
+requests>=2.31.0
+
+# Audio Processing
+pydub>=0.25.1
+mutagen>=1.47.0
+
+# Image Processing
+Pillow>=10.0.0
+openai>=1.0.0
+
+# UI
+streamlit>=1.30.0
+
+# Utilities
+tqdm>=4.66.0
+
+# Logging
+colorlog>=6.8.0
+
+# Testing (optional)
+pytest>=8.0.0
+
+

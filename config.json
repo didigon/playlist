@@ -1,0 +1,62 @@
+{
+  "_comment": "Suno Video Factory 설정 파일",
+  
+  "suno": {
+    "api_key": "YOUR_SUNO_API_KEY",
+    "api_base_url": "https://api.suno.ai",
+    "model": "v3.5",
+    "daily_limit": 60,
+    "timeout_seconds": 300
+  },
+  
+  "image": {
+    "provider": "openai",
+    "api_key": "YOUR_OPENAI_API_KEY",
+    "model": "dall-e-3",
+    "default_size": "1792x1024",
+    "quality": "hd",
+    "format": "png",
+    "fallback_format": "jpg"
+  },
+  
+  "video": {
+    "ffmpeg_path": "ffmpeg",
+    "codec_video": "libx264",
+    "codec_audio": "aac",
+    "audio_bitrate": "192k",
+    "default_resolution": "1920x1080",
+    "vertical_resolution": "1080x1920",
+    "thumbnail_enabled": true,
+    "thumbnail_time": "00:00:05"
+  },
+  
+  "paths": {
+    "music_folder": "./music",
+    "image_folder": "./images",
+    "video_folder": "./videos",
+    "thumbnail_folder": "./thumbnails",
+    "prompt_folder": "./prompts",
+    "log_folder": "./logs",
+    "db_folder": "./db"
+  },
+  
+  "pipeline": {
+    "auto_retry_count": 3,
+    "retry_delay_seconds": 2,
+    "retry_backoff_multiplier": 2,
+    "rate_limit_wait_seconds": 60,
+    "checkpoint_enabled": true,
+    "parallel_enabled": false,
+    "max_parallel_tasks": 3
+  },
+  
+  "logging": {
+    "level": "INFO",
+    "file_enabled": true,
+    "console_enabled": true,
+    "max_file_size_mb": 10,
+    "backup_count": 5
+  }
+}
+
+
