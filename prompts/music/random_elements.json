@@ -1,0 +1,9 @@
+{
+  "instrument": ["violin", "flute", "harp", "tin whistle", "bodhrán", "piano", "guitar", "saxophone", "trumpet", "cello", "drums", "bass"],
+  "mood": ["mystical", "energetic", "melancholic", "joyful", "peaceful", "dramatic", "romantic", "nostalgic", "uplifting", "calm"],
+  "tempo": ["slow", "moderate", "upbeat", "lively", "fast", "relaxed"]
+}
+
+
+
+
